@@ -1,0 +1,15 @@
+.input {
+	background-color: var(--color-white);
+	border: 1px solid var(--border-gray);
+	border-radius: 8px;
+	caret-color: var(--color-primary)!important;
+	color: var(--text-black);
+	font-size: 16px;
+	padding: 12px;
+	width: 100%;
+
+	&.active {
+		border: 1px solid var(--color-focus);
+		outline: none;
+	}
+}
