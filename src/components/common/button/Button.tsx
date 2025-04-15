@@ -12,6 +12,7 @@ export const Button = ({
 	variant = 'contained',
 	disabled = false,
 	size = 'medium',
+	color = 'primary',
 	...props
 }: ButtonProps) => {
 	return (
@@ -21,7 +22,8 @@ export const Button = ({
 				styles[`${width}`],
 				styles[`${variant}`],
 				styles[`${size}`],
-				disabled && styles['disabled']
+				disabled && styles['disabled'],
+				styles[`${color}`]
 			)}
 			type={type}
 			onClick={onClick}

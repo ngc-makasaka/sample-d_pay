@@ -5,9 +5,17 @@
 	font-weight: 600;
 
 	&.contained {
-		background-color: var(--color-primary);
 		border-radius: 80px;
 		height: 72px;
+
+		&.primary {
+			background-color: var(--color-primary);
+		}
+
+		&.white {
+			background-color: #FCFCFC;
+			color: var(--text-black);
+		}
 	}
 
 	&.outlined {
@@ -48,8 +56,8 @@
 	}
 
 	&.disabled {
-		background-color: var(--color-secondary);
-		color: var(--color-white);
+		background-color: var(--color-secondary)!important;
+		color: var(--color-white)!important;
 		cursor: not-allowed;
 	}
 }

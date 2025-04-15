@@ -21,6 +21,7 @@ const meta = {
 		width: { control: 'select' },
 		variant: { control: 'select' },
 		size: { control: 'select' },
+		color: { control: 'select' },
 	},
 	// Use `fn` to spy on the onClick arg, which will appear in the actions panel once invoked: https://storybook.js.org/docs/essentials/actions#action-args
 	args: { onClick: fn() },

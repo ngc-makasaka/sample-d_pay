@@ -6,4 +6,5 @@ export interface ButtonProps {
 	width?: 'full' | 'half'
 	size?: 'large' | 'medium' | 'small'
 	variant?: 'contained' | 'outlined'
+	color?: 'primary' | 'white'
 }
