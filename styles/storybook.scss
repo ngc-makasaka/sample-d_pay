@@ -1,0 +1,9 @@
+#storybook-root {
+	width: 100%;
+}
+
+.docs-story {
+	[class^="css-"] {
+		width: 100%;
+	}
+}

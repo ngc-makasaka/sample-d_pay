@@ -1,0 +1,55 @@
+
+.button {
+	color: var(--color-white);
+	font-size: 24px;
+	font-weight: 600;
+
+	&.contained {
+		background-color: var(--color-primary);
+		border-radius: 80px;
+		height: 72px;
+	}
+
+	&.outlined {
+		color: var(--color-primary);
+		font-size: 18px;
+	}
+
+	&.full {
+		width: 100%;
+
+		&.medium,
+		&.large {
+			height: 72px;
+		}
+
+		&.small {
+			font-size: 18px;
+			height: 56px;
+		}
+	}
+
+	&.half {
+		width: 50%;
+
+		&.large {
+			height: 72px;
+		}
+
+		&.medium {
+			font-size: 18px;
+			height: 56px;
+		}
+
+		&.small {
+			font-size: 16px;
+			height: 44px;
+		}
+	}
+
+	&.disabled {
+		background-color: var(--color-secondary);
+		color: var(--color-white);
+		cursor: not-allowed;
+	}
+}

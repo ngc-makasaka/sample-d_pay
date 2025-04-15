@@ -1,4 +1,6 @@
+import '@/styles/tailwind.scss'
 import '@/styles/globals.scss'
+import '@/styles/variables.scss'
 import { Geist, Geist_Mono } from 'next/font/google'
 
 import { SwrProvider } from '@/src/provider/swr-provider'
