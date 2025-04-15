@@ -1,4 +1,3 @@
-import '@/styles/tailwind.scss'
 import '@/styles/globals.scss'
 import { Geist, Geist_Mono } from 'next/font/google'
 
